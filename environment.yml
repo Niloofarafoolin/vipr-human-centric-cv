@@ -1,0 +1,10 @@
+name: vipr-cv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mediapipe==0.10.8
+      - opencv-python==4.10.0.84
+      - numpy>=1.24
